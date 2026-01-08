@@ -86,7 +86,7 @@ main {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.75rem 1.5rem;
-  background: #194d81;
+  background: rgb(14, 125, 236);
   color: white;
   text-decoration: none;
   border-radius: 4px;
@@ -95,4 +95,15 @@ main {
 .hero-desc button:hover {
   cursor: pointer;
   color: rgb(255, 174, 0);
+}
+
+/* products */
+.products-container {
+  padding: 18px;
+}
+.products-container h2 {
+  font-size: 2.1rem;
+}
+.products-grid {
+  padding: 12px;
 }
